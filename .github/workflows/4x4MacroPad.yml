@@ -2,7 +2,11 @@
 # if you have multiple keyboards, you need to have 1 copy of this file per keyboard
 # rename the name below so that you can see the different keyboards in your github actions
 name: 4x4MacroPad
-
+keyboard: 4x4Tutorials
+keymap: base
+keyboard_config: single
+hardware_config: 4x4Backpack
+compile_with: 4x4macropad_nrf52832
 # You will need to manually trigger this workflow
 on:  ['workflow_dispatch']
 
